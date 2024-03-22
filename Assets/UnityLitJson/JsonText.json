@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "age": 25,
+      "email": "alice@example.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001"
+      },
+      "interests": [
+        "reading",
+        "traveling",
+        "cooking"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "age": 30,
+      "email": "bob@example.com",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001"
+      },
+      "interests": [
+        "hiking",
+        "photography"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "Book Club",
+      "members": [1, 2],
+      "meetings": [
+        {
+          "title": "March Meeting",
+          "date": "2024-03-15",
+          "location": "Central Library"
+        },
+        {
+          "title": "April Meeting",
+          "date": "2024-04-12",
+          "location": "Alice's House"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Hiking Group",
+      "members": [2],
+      "meetings": [
+        {
+          "title": "Mount Wilson Hike",
+          "date": "2024-03-22",
+          "location": "Mount Wilson"
+        },
+        {
+          "title": "Echo Mountain Hike",
+          "date": "2024-04-05",
+          "location": "Echo Mountain"
+        }
+      ]
+    }
+  ]
+}
